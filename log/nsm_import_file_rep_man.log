@@ -1,0 +1,24 @@
+[2021-02-20 18:52:32,241][DEBUG][nsm_import_file_rep_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:52:32,318][DEBUG][nsm_import_file_rep_man]https://192.168.2.59:443 "GET /sdkapi/session HTTP/1.1" 200 59
+[2021-02-20 18:52:32,319][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.__init__ process: response status is 200
+[2021-02-20 18:52:32,319][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.__init__ process: API key is b'MzBDQTZGNUJDMkJGOTYwNTNGRTE5QUQ1NThDODQzRDA6MQ=='
+[2021-02-20 18:52:32,321][DEBUG][nsm_import_file_rep_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:52:32,373][DEBUG][nsm_import_file_rep_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:52:32,374][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:52:32,375][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:52:32,377][DEBUG][nsm_import_file_rep_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:52:32,435][DEBUG][nsm_import_file_rep_man]https://192.168.2.59:443 "PUT /sdkapi/domain/0/filereputation/customfingerprints HTTP/1.1" 200 12
+[2021-02-20 18:52:32,436][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.import_custom_fingerprints process: response status is 200
+[2021-02-20 18:52:32,436][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.import_custom_fingerprints process: response content is {"status":1}
+[2021-02-20 18:53:15,440][DEBUG][nsm_import_file_rep_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:53:15,545][DEBUG][nsm_import_file_rep_man]https://192.168.2.59:443 "GET /sdkapi/session HTTP/1.1" 200 59
+[2021-02-20 18:53:15,546][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.__init__ process: response status is 200
+[2021-02-20 18:53:15,547][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.__init__ process: API key is b'NDNCRjlEOTYwMkI1RUVBQzAzMkIzOTdCNDkwM0Q3NkU6MQ=='
+[2021-02-20 18:53:15,549][DEBUG][nsm_import_file_rep_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:53:15,606][DEBUG][nsm_import_file_rep_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:53:15,608][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:53:15,608][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:53:15,610][DEBUG][nsm_import_file_rep_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:53:15,669][DEBUG][nsm_import_file_rep_man]https://192.168.2.59:443 "PUT /sdkapi/domain/0/filereputation/customfingerprints HTTP/1.1" 200 12
+[2021-02-20 18:53:15,670][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.import_custom_fingerprints process: response status is 200
+[2021-02-20 18:53:15,670][INFO][nsm_import_file_rep_man]NetworkSecurityManagerAPI.import_custom_fingerprints process: response content is {"status":1}

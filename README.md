@@ -22,12 +22,11 @@ chardet==3.0.4
 idna==2.10
 requests==2.25.0
 urllib3==1.26.2
+   
+<br>
+<br>
+<br>
 
-[========]
-
-[========]
-
-[========]
 ## >How to setup environment (For CentOS 7)
 ##### 1. To download Python3.9 library
 ```shell
@@ -65,7 +64,8 @@ urllib3==1.26.2
 -chmod u+x nsm_api.py
 -chmod u+x loggia_lite.py
 ```
-[========]
+<br>
+
 ## >How to setup environment (For Windows 10)
 ##### 1. To download and install Python 3.9 library
 Go to the link below to download Python 3.9:
@@ -76,9 +76,9 @@ Go to the link below to download Python 3.9:
 -pip3 install requirements.txt
 ```
 
-[========]
-
-[========]
+<br>
+<br>
+<br>
 
 ## >How to use the script - nsm_import_file_rep (For both OS)
 ##### 1. To change credentials in both python scripts

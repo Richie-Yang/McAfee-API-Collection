@@ -6,6 +6,12 @@ by its hashes)
 TIE Whitelisting Script Originally by Troja from the McAfee Community
 https://community.mcafee.com/t5/Threat-Intelligence-Exchange-TIE/Upload-a-golden-Image-to-TIE-including-
 Reputation-and-Comment/td-p/490716, Modified 10/25/18
+
+tie_set_file_rep_from_file.py v1.00; Author: Richie Yang; Last edited at 2021/2/20.
+Compatible Platform list: McAfee NSM 9.1, Windows 10 20H2
+Description: This script is made to remotely import blacklist and whitelist files into NSM.
+New Features: None
+known Issues: None
 """
 
 from __future__ import absolute_import
@@ -29,16 +35,16 @@ from dxltieclient.constants import HashType, TrustLevel
 
 # Import common logging and configuration
 # sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
-from common import *
+from dxl_common import *
 
 # You must initialize logging, otherwise you'll not see debug output.
-loggia.Logging(filename="tie_set_file_rep_from_file")
+loggia_lite.Logging(filename="tie_set_file_rep_from_file")
 
 # Directories to use
 # dir_to_whitelist = "C:\\Users\\user1\\Desktop\\whitelist"
 # dir_to_blacklist = "C:\\Users\\user1\\Desktop\\blacklist"
-dir_to_whitelist = os.path.dirname(os.path.abspath(__file__)) + "/import_files/1_whitelist"
-dir_to_blacklist = os.path.dirname(os.path.abspath(__file__)) + "/import_files/2_blacklist"
+dir_to_whitelist = os.path.dirname(os.path.abspath(__file__)) + "/import_files/1_whitelist/whitelist_file_for_tie"
+dir_to_blacklist = os.path.dirname(os.path.abspath(__file__)) + "/import_files/2_blacklist/blacklist_file_for_tie"
 
 
 # Possible Reputation Values

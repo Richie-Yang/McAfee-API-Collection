@@ -1,0 +1,249 @@
+[2021-02-20 18:50:19,303][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:19,425][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/session HTTP/1.1" 200 59
+[2021-02-20 18:50:19,427][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.__init__ process: response status is 200
+[2021-02-20 18:50:19,427][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.__init__ process: API key is b'MUNFREZEMTAzM0JBMkNGMUUyN0JCNzk4QTk1MzA0OUY6MQ=='
+[2021-02-20 18:50:19,429][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:19,485][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:19,486][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:19,486][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:19,488][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:19,890][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:19,891][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:19,892][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2594}
+[2021-02-20 18:50:19,893][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:19,945][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:19,946][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:19,946][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:19,948][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,152][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:21,158][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:21,159][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2595}
+[2021-02-20 18:50:21,168][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,249][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:21,251][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:21,251][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:21,253][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,457][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:21,459][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:21,459][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2596}
+[2021-02-20 18:50:21,461][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,519][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:21,521][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:21,521][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:21,523][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,614][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:21,615][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:21,615][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2597}
+[2021-02-20 18:50:21,618][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,676][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:21,677][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:21,677][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:21,680][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:21,937][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:21,938][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:21,938][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2598}
+[2021-02-20 18:50:21,940][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,000][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:22,002][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:22,002][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:22,004][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,080][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:22,081][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:22,081][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2599}
+[2021-02-20 18:50:22,083][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,136][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:22,138][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:22,138][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:22,140][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,596][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:22,602][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:22,603][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2600}
+[2021-02-20 18:50:22,612][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,682][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:22,683][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:22,683][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:22,685][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,926][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:22,928][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:22,928][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2601}
+[2021-02-20 18:50:22,930][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:22,992][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:22,993][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:22,993][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:22,995][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,082][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:23,084][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:23,084][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2602}
+[2021-02-20 18:50:23,086][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,149][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:23,150][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:23,150][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:23,152][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,238][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:23,239][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:23,240][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2603}
+[2021-02-20 18:50:23,243][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,309][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:23,310][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:23,310][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:23,312][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,473][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:23,474][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:23,474][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2604}
+[2021-02-20 18:50:23,476][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,537][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:23,538][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:23,538][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:23,540][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,652][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:23,653][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:23,653][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2605}
+[2021-02-20 18:50:23,655][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,717][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:23,718][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:23,718][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:23,720][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,815][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:23,817][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:23,817][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2606}
+[2021-02-20 18:50:23,819][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,880][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:23,881][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:23,881][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:23,883][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:23,968][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:23,970][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:23,970][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2607}
+[2021-02-20 18:50:23,972][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:24,032][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:24,033][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:24,033][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:24,035][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:24,116][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:24,117][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:24,117][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2608}
+[2021-02-20 18:50:24,119][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:24,187][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:24,188][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:24,189][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:24,190][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:24,285][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:24,287][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:24,288][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2609}
+[2021-02-20 18:50:24,291][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:24,354][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:24,355][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:24,355][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:24,357][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:24,963][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:24,965][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:24,965][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2610}
+[2021-02-20 18:50:24,968][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,034][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,035][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:25,035][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:25,037][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,132][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:25,134][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:25,134][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2611}
+[2021-02-20 18:50:25,136][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,203][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,204][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:25,204][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:25,206][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,300][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:25,302][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:25,302][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2612}
+[2021-02-20 18:50:25,304][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,363][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,364][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:25,364][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:25,366][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,460][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:25,461][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:25,461][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2613}
+[2021-02-20 18:50:25,463][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,523][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,524][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:25,525][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:25,527][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,631][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:25,633][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:25,633][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2614}
+[2021-02-20 18:50:25,635][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,695][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,697][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:25,697][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:25,700][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,785][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:25,787][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:25,787][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2615}
+[2021-02-20 18:50:25,789][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,851][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,852][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:25,852][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:25,854][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,942][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:25,943][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:25,943][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2616}
+[2021-02-20 18:50:25,945][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:25,998][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:25,999][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:26,000][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:26,001][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:26,099][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:26,100][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:26,100][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2617}
+[2021-02-20 18:50:26,102][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:26,161][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:26,162][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:26,162][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:26,164][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:26,318][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:26,320][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:26,320][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2618}
+[2021-02-20 18:50:26,322][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:26,384][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:26,385][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:26,385][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:26,387][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:26,944][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:26,946][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:26,946][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2619}
+[2021-02-20 18:50:26,949][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:27,011][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:27,012][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:27,012][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:27,014][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:27,617][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:27,619][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:27,619][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2620}
+[2021-02-20 18:50:27,621][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:27,680][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:27,681][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:27,681][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:27,683][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:28,214][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "POST /sdkapi/ruleobject HTTP/1.1" 200 26
+[2021-02-20 18:50:28,219][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response status is 200
+[2021-02-20 18:50:28,220][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.add_rule_object process: response content is {"createdResourceId":2621}
+[2021-02-20 18:50:28,220][DEBUG][nsm_import_domain_blacklist_man]nsm_import_domain_blacklist_man process: pending blacklist ip profiles are [{'Name': 'n2019cov.000webhostapp.com', 'RuleObjectId': '2594', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'webmail-who-int.000webhostapp.com', 'RuleObjectId': '2595', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '010sec.com', 'RuleObjectId': '2596', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '01mspmd5yalky8.com', 'RuleObjectId': '2597', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0byv9mgbn0.com', 'RuleObjectId': '2598', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'ns6.0pendns.org', 'RuleObjectId': '2599', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'dns.0pengl.com', 'RuleObjectId': '2600', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'ios.0pengl.com', 'RuleObjectId': '2601', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0x4fc271.tk', 'RuleObjectId': '2602', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'login.yahoo.com.0x4fc271.tk', 'RuleObjectId': '2603', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0xf4a5.tk', 'RuleObjectId': '2604', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'user-id.0xf4a5.tk', 'RuleObjectId': '2605', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'change-password.yahoo.user-id.0xf4a5.tk', 'RuleObjectId': '2606', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'login.yahoo.user-id.0xf4a5.tk', 'RuleObjectId': '2607', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0xf4a54cf56.tk', 'RuleObjectId': '2608', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'login.yahoo.user-id.0xf4a54cf56.tk', 'RuleObjectId': '2609', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '12724.xyz', 'RuleObjectId': '2610', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '15438.xyz', 'RuleObjectId': '2611', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '21736.xyz', 'RuleObjectId': '2612', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'analytics.247sports.com', 'RuleObjectId': '2613', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.analytics.247sports.com', 'RuleObjectId': '2614', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '2no.co', 'RuleObjectId': '2615', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.2no.co', 'RuleObjectId': '2616', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'logitechlogitechglobal.112.2o7.net', 'RuleObjectId': '2617', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.logitechlogitechglobal.112.2o7.net', 'RuleObjectId': '2618', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '2s11.com', 'RuleObjectId': '2619', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '30-day-change.com', 'RuleObjectId': '2620', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.30-day-change.com', 'RuleObjectId': '2621', 'RuleObjectType': 'HOST_DNS_NAME'}]
+[2021-02-20 18:50:28,226][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:28,294][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain HTTP/1.1" 200 166
+[2021-02-20 18:50:28,295][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response status is 200
+[2021-02-20 18:50:28,295][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_domain process: response content is {'DomainDescriptor': {'id': 0, 'name': 'Demo.local', 'childdomains': [{'id': 106, 'name': 'Test-Zone-B', 'childdomains': []}, {'id': 105, 'name': 'Test-Zone-A', 'childdomains': []}]}}
+[2021-02-20 18:50:28,298][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:28,359][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/domain/0/firewallpolicy HTTP/1.1" 200 592
+[2021-02-20 18:50:28,360][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_firewall_policy_from_domain process: response status is 200
+[2021-02-20 18:50:28,360][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_firewall_policy_from_domain process: response content is {'FirewallPoliciesForDomainResponseList': [{'policyId': 145, 'policyName': 'Firewall Policy', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}, {'policyId': 105, 'policyName': 'test policy2', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}, {'policyId': 103, 'policyName': 'test policy1', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}]}
+[2021-02-20 18:50:28,360][DEBUG][nsm_import_domain_blacklist_man]nsm_import_domain_blacklist_man process: firewall policy summary data is {'FirewallPoliciesForDomainResponseList': [{'policyId': 145, 'policyName': 'Firewall Policy', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}, {'policyId': 105, 'policyName': 'test policy2', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}, {'policyId': 103, 'policyName': 'test policy1', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}]}
+[2021-02-20 18:50:28,362][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:28,419][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "GET /sdkapi/firewallpolicy/145 HTTP/1.1" 200 1398
+[2021-02-20 18:50:28,420][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_firewall_policy_detail process: response status is 200
+[2021-02-20 18:50:28,420][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.get_firewall_policy_detail process: response content is {'FirewallPolicyId': 145, 'Name': 'Firewall Policy', 'DomainId': 0, 'VisibleToChild': True, 'Description': '123', 'LastModifiedTime': '2021-02-20 18:49:26', 'IsEditable': True, 'PolicyType': 'ADVANCED', 'PolicyVersion': 1, 'LastModifiedUser': 'admin', 'MemberDetails': {'MemberRuleList': [{'Description': 'blacklist', 'Enabled': True, 'Response': 'DROP', 'IsLogging': False, 'Direction': 'EITHER', 'SourceAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'DestinationAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'SourceUserObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': 'USER'}], 'ServiceObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None, 'ApplicationType': None}], 'ApplicationObjectList': [], 'TimeObjectList': [{'RuleObjectId': '-1', 'Name': 'Always', 'RuleObjectType': None}]}, {'Description': 'test', 'Enabled': True, 'Response': 'SCAN', 'IsLogging': False, 'Direction': 'EITHER', 'SourceAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'DestinationAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'SourceUserObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': 'USER'}], 'ServiceObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None, 'ApplicationType': None}], 'ApplicationObjectList': [], 'TimeObjectList': [{'RuleObjectId': '-1', 'Name': 'Always', 'RuleObjectType': None}]}]}}
+[2021-02-20 18:50:28,420][DEBUG][nsm_import_domain_blacklist_man]nsm_import_domain_blacklist_man process: firewall policy detail data is {'FirewallPoliciesForDomainResponseList': [{'policyId': 145, 'policyName': 'Firewall Policy', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}, {'policyId': 105, 'policyName': 'test policy2', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}, {'policyId': 103, 'policyName': 'test policy1', 'domainId': 0, 'visibleToChild': True, 'description': '123', 'isEditable': True, 'policyType': 'ADVANCED', 'policyVersion': 1, 'lastModUser': 'admin'}]}
+[2021-02-20 18:50:28,421][DEBUG][nsm_import_domain_blacklist_man]nsm_import_domain_blacklist_man process: pending firewall policy rules are {'MemberRuleList': [{'Description': 'blacklist', 'Enabled': True, 'Response': 'DROP', 'IsLogging': False, 'Direction': 'EITHER', 'SourceAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'DestinationAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'SourceUserObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': 'USER'}], 'ServiceObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None, 'ApplicationType': None}], 'ApplicationObjectList': [], 'TimeObjectList': [{'RuleObjectId': '-1', 'Name': 'Always', 'RuleObjectType': None}]}, {'Description': 'test', 'Enabled': True, 'Response': 'SCAN', 'IsLogging': False, 'Direction': 'EITHER', 'SourceAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'DestinationAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'SourceUserObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': 'USER'}], 'ServiceObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None, 'ApplicationType': None}], 'ApplicationObjectList': [], 'TimeObjectList': [{'RuleObjectId': '-1', 'Name': 'Always', 'RuleObjectType': None}]}]}
+[2021-02-20 18:50:28,421][DEBUG][nsm_import_domain_blacklist_man]nsm_import_domain_blacklist_man process: processed firewall policy rules are {'MemberRuleList': [{'Description': 'blacklist', 'Enabled': True, 'Response': 'DROP', 'IsLogging': False, 'Direction': 'EITHER', 'SourceAddressObjectList': [{'Name': 'n2019cov.000webhostapp.com', 'RuleObjectId': '2594', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'webmail-who-int.000webhostapp.com', 'RuleObjectId': '2595', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '010sec.com', 'RuleObjectId': '2596', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '01mspmd5yalky8.com', 'RuleObjectId': '2597', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0byv9mgbn0.com', 'RuleObjectId': '2598', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'ns6.0pendns.org', 'RuleObjectId': '2599', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'dns.0pengl.com', 'RuleObjectId': '2600', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'ios.0pengl.com', 'RuleObjectId': '2601', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0x4fc271.tk', 'RuleObjectId': '2602', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'login.yahoo.com.0x4fc271.tk', 'RuleObjectId': '2603', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0xf4a5.tk', 'RuleObjectId': '2604', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'user-id.0xf4a5.tk', 'RuleObjectId': '2605', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'change-password.yahoo.user-id.0xf4a5.tk', 'RuleObjectId': '2606', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'login.yahoo.user-id.0xf4a5.tk', 'RuleObjectId': '2607', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '0xf4a54cf56.tk', 'RuleObjectId': '2608', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'login.yahoo.user-id.0xf4a54cf56.tk', 'RuleObjectId': '2609', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '12724.xyz', 'RuleObjectId': '2610', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '15438.xyz', 'RuleObjectId': '2611', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '21736.xyz', 'RuleObjectId': '2612', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'analytics.247sports.com', 'RuleObjectId': '2613', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.analytics.247sports.com', 'RuleObjectId': '2614', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '2no.co', 'RuleObjectId': '2615', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.2no.co', 'RuleObjectId': '2616', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'logitechlogitechglobal.112.2o7.net', 'RuleObjectId': '2617', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.logitechlogitechglobal.112.2o7.net', 'RuleObjectId': '2618', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '2s11.com', 'RuleObjectId': '2619', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': '30-day-change.com', 'RuleObjectId': '2620', 'RuleObjectType': 'HOST_DNS_NAME'}, {'Name': 'www.30-day-change.com', 'RuleObjectId': '2621', 'RuleObjectType': 'HOST_DNS_NAME'}], 'DestinationAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'SourceUserObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': 'USER'}], 'ServiceObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None, 'ApplicationType': None}], 'ApplicationObjectList': [], 'TimeObjectList': [{'RuleObjectId': '-1', 'Name': 'Always', 'RuleObjectType': None}]}, {'Description': 'test', 'Enabled': True, 'Response': 'SCAN', 'IsLogging': False, 'Direction': 'EITHER', 'SourceAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'DestinationAddressObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None}], 'SourceUserObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': 'USER'}], 'ServiceObjectList': [{'RuleObjectId': '-1', 'Name': 'Any', 'RuleObjectType': None, 'ApplicationType': None}], 'ApplicationObjectList': [], 'TimeObjectList': [{'RuleObjectId': '-1', 'Name': 'Always', 'RuleObjectType': None}]}]}
+[2021-02-20 18:50:28,424][DEBUG][nsm_import_domain_blacklist_man]Starting new HTTPS connection (1): 192.168.2.59:443
+[2021-02-20 18:50:28,494][DEBUG][nsm_import_domain_blacklist_man]https://192.168.2.59:443 "PUT /sdkapi/firewallpolicy/145 HTTP/1.1" 200 12
+[2021-02-20 18:50:28,495][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.update_firewall_policy process: response status is 200
+[2021-02-20 18:50:28,496][INFO][nsm_import_domain_blacklist_man]NetworkSecurityManagerAPI.update_firewall_policy process: response content is {"status":1}

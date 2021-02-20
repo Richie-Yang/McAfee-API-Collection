@@ -22,21 +22,26 @@ import loggia_lite
 
 # You must initialize logging, otherwise you'll not see debug output.
 
-loggia.Logging(filename='nsm_import_file_rep_man')
+loggia_lite.Logging(filename='nsm_import_file_rep_man')
 
 # Real Script starts from here.
 # nsm_ip = str(sys.argv[1])
-# file_path = str(sys.argv[2])
+# blacklist_filename = str(sys.argv[2])
 # usr = str(sys.argv[3])
 # pwd = str(sys.argv[4])
 
 nsm_ip = '192.168.2.59'
-file_path = 'test.csv'
 usr = 'admin'
 pwd = 'admin123'
+blacklist_filename = "blacklist_file_hash_for_nsm.csv"
+dir_to_blacklist = os.path.dirname(os.path.abspath(__file__)) + "/import_lists/2_blacklist/%s" % blacklist_filename
+
+'''
+Initiating NSM API class with input NSM IP, admin account, and password.
+'''
 
 nsm = nsm_api.NetworkSecurityManagerAPI(mcafee_nsm_ip=nsm_ip, username=usr, password=pwd)
 
 # To directly import blacklist up to McAfee NSM.
 
-nsm.import_custom_fingerprints(action='APPEND', file=file_path)
+nsm.import_custom_fingerprints(action='APPEND', file=dir_to_blacklist)
