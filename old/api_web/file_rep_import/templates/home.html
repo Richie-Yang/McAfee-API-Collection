@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NSM File-Rep-Import Automation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <meta http-equiv="refresh" content="30" >
+</head>
+<body>
+<br>
+<div id="LoggingBody" style="display: block; text-align: center;">
+    <h2>Logging Output</h2>
+    <br>
+    <embed src="../log/web_engine.log" width="1200" height="800"/>
+</div>
+<br>
+<script type="text/javascript">
+    var LoggingHistory = document.getElementById("LoggingBody");
+    LoggingHistory.scrollTop = LoggingHistory.scrollHeight - LoggingHistory.clientHeight;
+</script>
+</body>
+</html>
